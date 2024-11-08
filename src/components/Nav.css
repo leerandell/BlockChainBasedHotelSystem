@@ -1,0 +1,90 @@
+.nav-container {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  height: 70px;
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Ensures it stays on top of other elements */
+  background-color: white; /* Ensures background color remains */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.navbar {
+  margin: auto 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+}
+
+.nav-left-section {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: black; /* Set link color to black or any preferred color */
+  text-decoration: none; /* Remove underline */
+  padding: 15px 15px; /* Add padding to links */
+  font-weight: 500; /* Adjust font weight if needed */
+  position: relative;
+  border-bottom: 2px solid transparent; /* Initially, no border */
+}
+
+.nav-links a.active-link {
+  border-bottom: 2px solid #000; /* Add solid bottom border to the active link */
+  color: #000; /* Active link color */
+}
+
+.nav-links a:hover {
+  color: #666; /* Change color on hover */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-container h3 {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 700;
+}
+
+.user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.user-avatar {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.metamask-icon {
+  height: 35px;
+  border-radius: 50px;
+  background-color: rgb(247, 247, 247);
+  padding: 8px;
+  cursor: pointer;
+}
+
+.user-address {
+  font-weight: 600;
+}
+
+.eth-balance {
+  color: gray;
+}

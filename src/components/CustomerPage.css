@@ -1,0 +1,94 @@
+.customer-page {
+  font-family: "Karla", sans-serif;
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.main-heading-text {
+  font-size: 60px;
+}
+
+.room-categories-section {
+  margin: 40px 150px;
+  text-align: center;
+}
+
+.room-heading {
+  font-family: "Nanum Myeongjo", serif;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+.room-category-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.room-category-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 30%;
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  transition: transform 0.3s;
+  cursor: pointer;
+  text-decoration: none; /* Removes the underline */
+  color: black; /* Makes the link text black */
+}
+
+.room-category-card:hover {
+  transform: translateY(-10px);
+}
+
+.category-image {
+  width: 100%;
+  height: 250px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+  border-radius: 8px; /* Optional: To give images a rounded look */
+}
+
+
+.category-text {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: black; /* Makes the text black */
+}
+
+.category-description {
+  font-size: 20px;
+  color: black; /* Makes the text black */
+}
+
+.explore-rooms {
+  font-size: 50px;
+}
+
+.explore-rooms-subheading {
+  font-size: 30px;
+}

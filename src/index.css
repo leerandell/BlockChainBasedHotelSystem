@@ -1,0 +1,15 @@
+p, h1, h2, h3 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
